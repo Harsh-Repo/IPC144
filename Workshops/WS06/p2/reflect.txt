@@ -1,0 +1,91 @@
+/*
+	==================================================
+	Workshop #6 (Part-2): REFLECTION
+	==================================================
+	Name   :Harsh Patel
+	ID     :146315205
+	Email  :hpatel262@myseneca.ca
+	Section:IPC144NJJ
+*/
+1.	struct ReportData
+	{
+		int sku;
+		double product_price;
+		int cal_per_sugg_serving;
+		double weight_pound;
+		double weight_kg;
+		int weight_g;
+		double total_serving;
+		double cost_per_serving;
+		double cost_cal_per_serving;
+	};
+The above ReportData structure consists of 3 int data type members and 6 double data type members in 32- bit architecture. This means struct ReportData takes size of 60 bytes. I have passed structure by value to functions. For instance,
+
+void displayReportData(const struct ReportData ReportData, const int cheapest)
+{
+	printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", ReportData.sku, ReportData.product_price,ReportData.weight_pound, ReportData.weight_kg, ReportData.weight_g,ReportData.cal_per_sugg_serving,ReportData.total_serving, ReportData.cost_per_serving, ReportData.cost_cal_per_serving);
+	if (cheapest != 0)
+	{
+		printf(" ***");
+	}
+}
+This means whenever function calls the structure it first requires 60 bytes to work. This can also be done by passing the address of the structure to the function as passing by address consumes less memory. This will save our memory and work faster. For instance
+
+	void displayReportData(const struct ReportData *ReportData, const int cheapest)
+	{
+		printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", ReportData->sku,
+		ReportData->product_price,ReportData->weight_pound, ReportData->weight_kg, ReportData->weight_g,
+		ReportData->cal_per_sugg_serving,ReportData->total_serving, ReportData->cost_per_serving, ReportData->cost_cal_per_serving);
+		if (cheapest != 0)
+		{
+		printf(" ***");
+		}
+	}
+
+2.	struct CatFoodInfo
+	{
+		int skuNumber;
+		double price;
+		int caloriesPerServing;
+		double productWeight;
+	};
+struct ReportData
+		{
+			int sku;
+			double product_price;
+			int cal_per_sugg_serving;
+			double weight_pound;
+			double weight_kg;
+			int weight_g;
+			double total_serving;
+			double cost_per_serving;
+			double cost_cal_per_serving;
+		}
+We can see first 4 variables of struct CatFoodInfo and struct ReportData is same. To avoid repetition, we can use nested structure. the variables of CatFoodInfo can be nested inside in Reportdata struct instead of using new one.So, the modified struct ReportData is given below: 
+
+	struct ReportData
+	{
+		struct CatFoodInfo CatFoodInfo;
+		double weight_kg;
+		int weight_g;
+		double total_serving;
+		double cost_per_serving;
+		double cost_cal_per_serving;
+	};
+Accordingly, there will be the changes in displayReportData function.
+
+void displayReportData(const struct ReportData ReportData, const int cheapest)
+{
+	printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", ReportData.CatFoodInfo.skuNumber, ReportData.CatFoodInfo.price,ReportData. CatFoodInfo.caloriesPerServing, ReportData.CatFoodInfo.productWeight, ReportData.weight_g,ReportData.cal_per_sugg_serving,ReportData.total_serving, ReportData.cost_per_serving, ReportData.cost_cal_per_serving);
+	if (cheapest != 0)
+	{
+		printf(" ***");
+	}
+}
+
+
+
+
+
+
+

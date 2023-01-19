@@ -1,0 +1,6 @@
+﻿  w4p2.c
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS04\p2\w4p2.c(406,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS04\p2\w4p2.c(456,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS04\p2\w4p2.c(491,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS04\p2\w4p2.c(526,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  p2.vcxproj -> C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS04\p2\Debug\p2.exe

@@ -1,0 +1,13 @@
+﻿  w2p2.c
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(25,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(28,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(31,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(34,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(37,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(40,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(43,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(36,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(39,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(42,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\w2p2.c(44,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  p2.vcxproj -> C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p2\Debug\p2.exe

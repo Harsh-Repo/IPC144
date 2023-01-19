@@ -1,0 +1,10 @@
+//==============================================
+// Name:           Harsh Patel
+// Student Number: 146315205
+// Email:          hpatel262@myseneca.ca
+// Section:        ipc144NJJ
+// Date:           1-08-2021         
+//==============================================
+I this assignment I have got handy with string functions. I can now process in my mind where and how I can use string library functions and to take workout with it.
+	If we will write the same logic again and again, the chance of mistake will increase. The two functions findContactIndex and getTenDigitPhone are like helper functions. We do not need to write the same logic repeatedly and reduces the mentioned issue. We will just write for 1 time and then call the function whenever required. This will make our source code concise and easy to maintain. Even increases the readability of code. 
+	Yes, I would like to save/load the contact information using text file. Because the program which we have created is very helpful related to managing contacts. We can edit, update, delete and sort contacts and we can some more features to it. So, everything is at one place. it is also convenient if we want to share the data to another person. If required person is not a programmer so text file will be readable to him. It is also very easy to use features and to keep the track of all the contacts listed.

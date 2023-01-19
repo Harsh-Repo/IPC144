@@ -1,0 +1,7 @@
+﻿  w2p1.c
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(22,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(23,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(24,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(26,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(27,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  p1.vcxproj -> C:\Users\Harsh\OneDrive\Desktop\IPC144\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\Debug\p1.exe

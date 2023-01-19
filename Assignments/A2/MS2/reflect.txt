@@ -1,0 +1,19 @@
+//==============================================
+// Name:           Harsh Patel
+// Student Number: 146315205
+// Email:          hpatel262@myseneca.ca
+// Section:        IPC144NJJ
+// Date:           17 - 07 - 2021     
+//==============================================
+// Assignment:     2
+// Milestone:      2 reflect
+//==============================================
+
+
+First of all, it was hard for me to shuffle from one file to other to know what and where we have to write the code. But, while completing this assignment now I am stable to know where functions should be written, where header files and main code to be written. I have structures and functions mixed up in this assignment. I was not knowing completely how I will pass a structure to function, but I get to know now perfectly. I learned how strings get into use with have spaces in them. What is buffer input, and it goes with entering (\n). Learned more about strings and their libraries. Now, I have come across various looping sections till now, so now it sticks in my mind where and which type of loop should be used.
+
+
+Basically, a function is a section of code in a whole program that can be used and implemented whenever it is necessary. They are independent of other code sections, but another code is dependent on these functions. This is very important in structural and modern programming, as it defines some sort of logic that is going to be repeated. If we directly write this logic in the main, and if we need to use it again and again, it became hard for a reader to know what’s going on. I have used the yes function in the contactHelper file. This function is almost used in each .c file. So, due to this, I don’t need to write logic repeatedly. According to me, a function is definitely needed for big coding files. This makes us use logic repeatedly and in an effective way. And reduces our time in debugging.
+
+
+Helper functions are kept away from contact functions to avoid mixing them. The helper module is not directly connected with the contact module. Helper functions are small functions that are called in whichever module they needed. I have used helper functions in getName, getAddress, and get Numbers which are in the contact module. So, if I write small helper functions and call them in the same file it will be a bit confusing. As it is not related to the contact module we can separate helper functions, and whenever it is required, we will reuse it by just including its header file in that module.  

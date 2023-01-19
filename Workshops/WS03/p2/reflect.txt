@@ -1,0 +1,31 @@
+1.Months can be matched by its first 3characters by 2 methods:
+ 	*switch case
+	*if/else case
+ FROM IF/ELSE:
+		if (month == JAN)
+		{
+			printf("\n%d-JAN-01%d\n", year);
+		}
+		else
+		{
+              		printf("\n%d-FEB-01%d\n", year);
+		}
+
+FROM SWITCH:
+                int i=1;
+		switch(i>0)
+		{
+			case 1: printf("\n%d-JAN-01%d\n", year); 
+				break;
+			case 2: printf("\n%d-FEB-01%d\n", year);
+				break;
+			default: break;
+		}
+here I haven't considered for dates its just for 2 months.
+2. There are three types of iterations we can use:
+	*for loop
+	*while loop
+	*do while loop
+   For validating like checking again and again, that correct values are input, i have used while loop. In these while loop, it will continue until the condition is true. Even the structure of while is much easy to understand and readable. I think I get grip on while loop and it get fix in my mind. For printing the dates 3 times and it morning/evening rates I have used for loop.
+3. First of all I was bit confused in for and while and do while,how to use them. Then i started to write code. I got lots of errors. I try to fix them . Then I switch to our online material, read those information, came back again. I resolved them step by step and I fix it. I follow the writing from build box and tried to understand the meaning. Even completing writing code there were some mistake came up from matrix checkup. I came back to code, corrected it and that's how it gone.
+

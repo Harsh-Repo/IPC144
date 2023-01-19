@@ -1,0 +1,15 @@
+Name- Harsh Patel, Seneca ID Number:  146315205, Email- hpatel262@myseneca.ca, section: IPC144 NJJ.
+
+
+1.	I have now become familiar about software’s we are going to use. I can now easily use vs IDE for code by projects and assignments. I can transfer my local file to matrix server by secured file transfer protocol (SFTP), i.e., WinSCP and how to run and check programs in matrix server. Basically, I can now predict how we all be doing coming next workshops.
+
+2.	SSH is a network protocol through which we can connect to Linux server by using some application which support client’s server. We have used PuTTy application to get connected to Seneca matrix server. In this we can check and run our local files of c program and get to know that the output is same as told, by using some Linux operating commands. In this workshop, we have created directories or folders in matrix server to put some files. We have used it for running and submitting our code files to matrix server so that it will get visible to host. Also, this provides environment of Unix/Linux to beginners.
+
+3.	Secure file transfer protocol (SFTP) is a protocol we use to copy files from our local computer to clients Linux server using some application. I have particularly used WinSCP application to transfer workshops files and it is very handy. We have to just open it and get connected to Seneca’s matrix server by using Seneca’s user id and password. And then just drag and drop files from local to server folders. This is how file get transferred and when we open matrix server it shows our local files.
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+REFLECT W02
+1.When we use float type the number get approximate by computer. Whenever we need to represent or print floating point number, we need to examine to which decimal point and precision we want our digit to print. Here we have %.15lf and this is not correct precision for this 10.12 number. If we use %0.2lf we will get correct printed digit. 
+
+2. Modulus can be used only with int type. 
+	a)	When we do %2 with any int number, the remainder will come to 0 or 1, i.e. {0,1}. So, if the number is even, 		it will give zero other wise 1.
+	b)	When we do %3 with any int number, the remainder will come to 0,1 or 2, i.e. {0,1,2}. 
+	c)	When we do %100 with any int number, the remainder will range from [0,99].
+Here I get a completely new experience as I never read from our online material about this usage of %(modulus).
+
+3. 	int wholePizzasEaten =  totalSlices % estimatedSlicesConsumed.
+	int extraSlicesNeeded= (totalSlices - estimatedSlicesConsumed) % 12;
+
+4. When it comes to do arithmetic operations, we don’t choose floating point number because its value doesn’t come true as it gets approximation. And that value will be not perfect when we need some heavy calculation. Even, modulus operator doesn’t work with floating numbers. Also, when this digit comes after point(.) it will add more to do arithmetic part. So that is why we convert float to int for arithmetic purpose.

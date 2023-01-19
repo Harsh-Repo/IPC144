@@ -1,0 +1,28 @@
+    ==================================================
+    Workshop #4 (Part-2): reflect
+    ==================================================
+    Name   :Harsh Patel
+    ID     :146315205
+    Email  :hpatel262@myseneca.ca
+    Section:IPC144NJJ
+1. In one parallel array we store the key value and in second we store the corresponding value related to same entity. in this workshop we have 4 entities. the item number(int),priority(int),financed(char) and the cost(double).So to do in accurate way we use parallel arrays. in first we give keys(item number,priority,financed and the cost) and then in second we store its user given value with the help of loop.
+ar[]={Item,Priority,Financed,Cost};
+ar[]={1,1,'y',265324.25}
+for item, we take value using loop and ar[j][1] and so on...
+Thus key is important and used as index of array to get data.
+
+2. Its a common practice for iterating to use variable declared with 0. in arrays the value it defined by its location. And the index in arrays starts with 0. So it becames easy to compare at the time of usage. Like in this workshop :
+we use the for (int i=0;i< item; i++)
+and then in printf we use ar[i][2] to store value of priority.so at 0th index we store the value of priority in second array.
+
+3. To expain the child we will give example of fridge in our kitchen. In fridge we have 5-6 partitions from top to bottom in continues manner. In computer language we can say this as small boxes joined together. So we have some restictions to put items in fridge like fruits and vegetable at bottom and freezing item/ice at top,etc.. similarly we have restrictions to data in this boxes called as data-type. We can only put similar data in single box. And we give the indices as 0-n or till the boxes we have get filled. And so we put the data in continous memory in array. 
+
+
+
+
+
+
+
+
+
+
